@@ -248,7 +248,7 @@
           <name>Отбор.ВидДоговора</name>
           <value xsi:type="form:FormChoiceListDesTimeValue">
             <value xsi:type="core:ReferenceValue">
-              <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.ВКМ_АбоненскоеОбслуживание</value>
+              <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.ВКМ_АбонентскоеОбслуживание</value>
             </value>
           </value>
         </choiceParameters>
