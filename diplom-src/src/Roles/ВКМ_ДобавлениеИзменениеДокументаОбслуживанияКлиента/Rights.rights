@@ -344,11 +344,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефонаБезКодов</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -410,11 +410,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.ДоменноеИмяСервера</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -1884,11 +1884,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.ДополнительныеРеквизиты</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -2489,20 +2489,12 @@
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.PredefinedDataName</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2511,20 +2503,12 @@
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Ref</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2533,20 +2517,12 @@
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.IsFolder</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2555,10 +2531,6 @@
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Parent</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2566,20 +2538,12 @@
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Description</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3512,11 +3476,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -4414,11 +4378,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -8041,11 +8005,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Регион</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -8338,11 +8302,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Страна</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -8811,11 +8775,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.АдресЭП</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -8899,11 +8863,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Тип</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -9744,17 +9708,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ДоговорыКонтрагентов.Attribute.ВидДоговора</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ВерсииФайлов.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Комментарий</name>
 		<right>
 			<name>View</name>
@@ -10230,11 +10183,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Вид</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -11682,11 +11635,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.ДополнительныеРеквизиты.Attribute.ТекстоваяСтрока</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -11913,10 +11866,6 @@
 	<object>
 		<name>Catalog.Номенклатура.Attribute.НоменклатурнаяГруппа</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -11946,11 +11895,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефона</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -13915,11 +13864,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Значение</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -14573,17 +14522,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ДоговорыКонтрагентов.Attribute.Организация</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.НастройкиАвторизацииИнтернетСервисов.Attribute.АдресАвторизации</name>
 		<right>
 			<name>View</name>
@@ -15213,11 +15151,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -15983,11 +15921,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Представление</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -18277,10 +18215,6 @@
 	<object>
 		<name>Catalog.Номенклатура.Attribute.ВидНоменклатуры</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -18376,11 +18310,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.ЗначенияПолей</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -19201,11 +19135,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -19980,105 +19914,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ДоговорыКонтрагентов.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Файлы.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
@@ -20675,99 +20510,99 @@
 	<object>
 		<name>Catalog.Организации.StandardAttribute.PredefinedDataName</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Организации.StandardAttribute.Predefined</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Организации.StandardAttribute.Ref</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Организации.StandardAttribute.DeletionMark</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Организации.StandardAttribute.IsFolder</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Организации.StandardAttribute.Owner</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Организации.StandardAttribute.Parent</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Организации.StandardAttribute.Description</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Организации.StandardAttribute.Code</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -21015,10 +20850,6 @@
 	</object>
 	<object>
 		<name>Catalog.Номенклатура.Attribute.ЕдиницаИзмерения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -22490,11 +22321,11 @@
 	<object>
 		<name>Catalog.Организации.TabularSection.КонтактнаяИнформация.Attribute.Город</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -27990,19 +27821,11 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Update</name>
 			<value>false</value>
 		</right>
 		<right>
 			<name>Delete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -30017,19 +29840,11 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Update</name>
 			<value>false</value>
 		</right>
 		<right>
 			<name>Delete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>false</value>
 		</right>
 		<right>
@@ -30110,6 +29925,10 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -36936,6 +36755,28 @@
 	</object>
 	<object>
 		<name>Document.ЗаказПокупателя.Attribute.Контрагент</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.Attribute.КПП</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.Attribute.ИНН</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
