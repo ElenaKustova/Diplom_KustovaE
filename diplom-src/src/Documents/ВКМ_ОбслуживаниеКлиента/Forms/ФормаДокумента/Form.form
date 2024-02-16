@@ -238,6 +238,12 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <choiceParameterLinks>
+          <name>Отбор.Владелец</name>
+          <datapath xsi:type="form:DataPath">
+            <segments>Объект.Клиент</segments>
+          </datapath>
+        </choiceParameterLinks>
         <choiceParameters>
           <name>Отбор.ВидДоговора</name>
           <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -246,11 +252,6 @@
             </value>
           </value>
         </choiceParameters>
-        <typeLink>
-          <datapath xsi:type="form:DataPath">
-            <segments>Объект.Клиент</segments>
-          </datapath>
-        </typeLink>
       </extInfo>
     </items>
     <visible>true</visible>
