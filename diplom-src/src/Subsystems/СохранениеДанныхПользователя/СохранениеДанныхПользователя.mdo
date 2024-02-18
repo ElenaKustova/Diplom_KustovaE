@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35bfc6e1-9310-40b5-b86d-d272f85a21cf">
+  <name>СохранениеДанныхПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранение данных пользователя</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

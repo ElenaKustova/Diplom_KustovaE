@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb4ba34d-e9fa-47f3-90c4-577c6a15f928">
+  <name>ДобавлениеИзменениеВариантовОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение вариантов отчетов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d16053b-0a09-476a-9b16-eae07ce9b094">
+  <name>ЗапускAutomation</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск Automation</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

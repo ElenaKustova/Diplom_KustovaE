@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e12f6d81-a893-4a96-a6d9-35ef5675ef86">
+  <name>ЧтениеДополнительныхСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение дополнительных сведений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

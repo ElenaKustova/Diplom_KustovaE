@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afe8ab6c-6c33-4c8d-afc2-c6dfc042a78b">
+  <name>НастройкаСинхронизацииФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка синхронизации файлов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

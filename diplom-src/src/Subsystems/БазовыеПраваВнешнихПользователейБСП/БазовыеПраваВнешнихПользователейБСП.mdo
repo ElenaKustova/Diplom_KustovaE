@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dd903b0-d630-44d7-98d4-0fb46d4016d8">
+  <name>БазовыеПраваВнешнихПользователейБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые права внешних пользователей БСП</value>
+  </synonym>
+  <comment>Это базовые права БСП, которые должны быть у любого внешнего пользователя</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

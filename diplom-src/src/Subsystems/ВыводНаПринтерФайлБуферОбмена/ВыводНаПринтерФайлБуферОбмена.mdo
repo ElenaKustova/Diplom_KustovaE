@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b4c2aee-bf14-457a-89ed-354415fd3953">
+  <name>ВыводНаПринтерФайлБуферОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вывод на принтер, в файл, в буфер обмена</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

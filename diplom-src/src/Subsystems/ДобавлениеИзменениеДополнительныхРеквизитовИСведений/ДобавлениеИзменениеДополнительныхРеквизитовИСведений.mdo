@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="417a1737-5177-474f-82a4-a477eccbc5ad">
+  <name>ДобавлениеИзменениеДополнительныхРеквизитовИСведений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение дополнительных реквизитов и сведений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

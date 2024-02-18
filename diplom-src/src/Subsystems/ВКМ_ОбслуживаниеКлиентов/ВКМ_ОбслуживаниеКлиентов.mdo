@@ -12,4 +12,9 @@
   </picture>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>HTTPService.Боты</content>
+  <content>b34d232f-3777-4068-917a-c9faaf3a35fb</content>
 </mdclass:Subsystem>

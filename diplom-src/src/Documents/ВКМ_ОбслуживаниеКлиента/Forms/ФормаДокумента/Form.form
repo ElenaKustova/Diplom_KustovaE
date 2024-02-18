@@ -524,6 +524,10 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>TextEditEnd</event>
+          <name>ВремяОкончанияРаботПланОкончаниеВводаТекста</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -815,6 +819,13 @@
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
+      <footerDataPath xsi:type="form:DataPath">
+        <segments>Объект.ВыполненныеРаботы.TotalЧасыКОплатеКлиенту</segments>
+      </footerDataPath>
+      <footerText>
+        <key>ru</key>
+        <value>Итого</value>
+      </footerText>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -984,6 +995,7 @@
     <selectionMode>MultiRow</selectionMode>
     <header>true</header>
     <headerHeight>1</headerHeight>
+    <footer>true</footer>
     <footerHeight>1</footerHeight>
     <horizontalScrollBar>AutoUse</horizontalScrollBar>
     <verticalScrollBar>AutoUse</verticalScrollBar>
@@ -997,6 +1009,7 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormField">
     <name>Комментарий</name>
@@ -1099,12 +1112,16 @@
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
     <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
+    </handlers>
+    <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
     </handlers>
     <handlers>
-      <event>AfterWrite</event>
-      <name>ПослеЗаписи</name>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>

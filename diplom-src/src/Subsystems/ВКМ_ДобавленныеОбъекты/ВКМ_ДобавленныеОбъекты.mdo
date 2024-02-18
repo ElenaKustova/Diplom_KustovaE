@@ -9,4 +9,11 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
+  <content>CommonModule.ВКМ_Телеграм</content>
+  <content>HTTPService.Боты</content>
+  <content>90dc89d4-7c40-4331-b621-670cb1ff997f</content>
+  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
+  <content>b34d232f-3777-4068-917a-c9faaf3a35fb</content>
 </mdclass:Subsystem>

@@ -9,6 +9,7 @@
     <value>Присоединенный файл</value>
   </synonym>
   <type>
+    <types>CatalogRef.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</types>
     <types>CatalogRef.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
     <types>CatalogRef.РеализацияТоваровУслугПрисоединенныеФайлы</types>
     <types>CatalogRef.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
@@ -17,6 +18,5 @@
     <types>CatalogRef.КонтрагентыПрисоединенныеФайлы</types>
     <types>CatalogRef.ОрганизацииПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
-    <types>CatalogRef.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

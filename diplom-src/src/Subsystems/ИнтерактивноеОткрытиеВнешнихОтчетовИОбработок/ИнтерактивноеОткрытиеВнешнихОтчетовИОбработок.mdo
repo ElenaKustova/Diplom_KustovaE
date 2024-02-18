@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36ac3204-a1a9-48d0-801b-56108dd2c00d">
+  <name>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерактивное открытие внешних отчетов и обработок</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+</mdclass:Subsystem>

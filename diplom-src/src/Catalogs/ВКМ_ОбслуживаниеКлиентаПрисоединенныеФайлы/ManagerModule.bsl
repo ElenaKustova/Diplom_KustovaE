@@ -32,7 +32,11 @@
 
 // Параметры:
 //   Ограничение - см. УправлениеДоступомПереопределяемый.ПриЗаполненииОграниченияДоступа.Ограничение.
+//Описание:
 //
+//@skip-check doc-comment-export-procedure-description-section
+//@skip-check doc-comment-field-type
+//@skip-check doc-comment-field-type-strict
 Процедура ПриЗаполненииОграниченияДоступа(Ограничение) Экспорт
 	
 	Ограничение.Текст =
