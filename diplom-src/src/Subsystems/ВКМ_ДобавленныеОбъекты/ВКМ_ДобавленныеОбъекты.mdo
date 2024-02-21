@@ -16,4 +16,7 @@
   <content>90dc89d4-7c40-4331-b621-670cb1ff997f</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>b34d232f-3777-4068-917a-c9faaf3a35fb</content>
+  <content>Role.ВКМ_ДобавлениеИзменениеДокументаОбслуживанияКлиента</content>
+  <content>Role.ВКМ_ИспользованиеБотов</content>
+  <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
 </mdclass:Subsystem>

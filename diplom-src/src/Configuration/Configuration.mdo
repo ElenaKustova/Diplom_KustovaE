@@ -56,59 +56,6 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
   <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
-  <subsystems>Subsystem.АдминистраторСистемы</subsystems>
-  <subsystems>Subsystem.БазоваяФункциональностьТП</subsystems>
-  <subsystems>Subsystem.БазовыеПраваБСП</subsystems>
-  <subsystems>Subsystem.БазовыеПраваВнешнихПользователейБСП</subsystems>
-  <subsystems>Subsystem.ВыводНаПринтерФайлБуферОбмена</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеВариантовОтчетов</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеВидовКонтактнойИнформации</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеВнешнихПользователей</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеДокументовПокупки</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеДокументовПродажи</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеДополнительныхОтчетовИОбработок</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеДополнительныхРеквизитовИСведений</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеКонтрагентов</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеЛичныхВариантовОтчетов</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеНСИ</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеПапокИФайлов</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеПапокИФайловВнешнимиПользователями</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеПользователей</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзменениеУчетныхЗаписейЭлектроннойПочты</subsystems>
-  <subsystems>Subsystem.ДобавлениеИзмененияДенежныхДокументов</subsystems>
-  <subsystems>Subsystem.ЗапускAutomation</subsystems>
-  <subsystems>Subsystem.ЗапускВебКлиента</subsystems>
-  <subsystems>Subsystem.ЗапускВнешнегоСоединения</subsystems>
-  <subsystems>Subsystem.ЗапускМобильногоКлиента</subsystems>
-  <subsystems>Subsystem.ЗапускТолстогоКлиента</subsystems>
-  <subsystems>Subsystem.ЗапускТонкогоКлиента</subsystems>
-  <subsystems>Subsystem.ИзменениеДополнительныхСведений</subsystems>
-  <subsystems>Subsystem.ИзменениеМакетовПечатныхФорм</subsystems>
-  <subsystems>Subsystem.ИзменениеУчастниковГруппДоступа</subsystems>
-  <subsystems>Subsystem.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</subsystems>
-  <subsystems>Subsystem.ИспользованиеУниверсальногоОтчета</subsystems>
-  <subsystems>Subsystem.НастройкаИОценкаПроизводительности</subsystems>
-  <subsystems>Subsystem.НастройкаСинхронизацииФайлов</subsystems>
-  <subsystems>Subsystem.ОбновлениеКонфигурацииБазыДанных</subsystems>
-  <subsystems>Subsystem.ПолныеПрава</subsystems>
-  <subsystems>Subsystem.ПросмотрЖурналаРегистрации</subsystems>
-  <subsystems>Subsystem.ПросмотрОписанияИзмененийПрограммы</subsystems>
-  <subsystems>Subsystem.ПросмотрСвязанныеДокументы</subsystems>
-  <subsystems>Subsystem.РедактированиеПечатныхФорм</subsystems>
-  <subsystems>Subsystem.РедактированиеРеквизитовОбъектов</subsystems>
-  <subsystems>Subsystem.РежимТехническогоСпециалиста</subsystems>
-  <subsystems>Subsystem.СохранениеДанныхПользователя</subsystems>
-  <subsystems>Subsystem.УдаленныйДоступБазоваяФункциональность</subsystems>
-  <subsystems>Subsystem.ЧтениеВариантовОтчетов</subsystems>
-  <subsystems>Subsystem.ЧтениеВзаиморасчетовСПокупателями</subsystems>
-  <subsystems>Subsystem.ЧтениеВзаиморасчетовСПоставщиками</subsystems>
-  <subsystems>Subsystem.ЧтениеВнешнихПользователей</subsystems>
-  <subsystems>Subsystem.ЧтениеДополнительныхОтчетовИОбработок</subsystems>
-  <subsystems>Subsystem.ЧтениеДополнительныхСведений</subsystems>
-  <subsystems>Subsystem.ЧтениеНСИ</subsystems>
-  <subsystems>Subsystem.ЧтениеУчетныхЗаписейЭлектроннойПочты</subsystems>
-  <subsystems>Subsystem.ВКМ_ДобавлениеИзменениеДокументаОбслуживанияКлиента</subsystems>
-  <subsystems>Subsystem.ВКМ_ИспользованиеБотов</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -874,6 +821,7 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
   <commonModules>CommonModule.ВКМ_РегламентноеЗаданиеСправочникУведомления</commonModules>
+  <commonModules>CommonModule.ВКМ_ФормированиеАктов</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
@@ -1287,6 +1235,7 @@
   <dataProcessors>DataProcessor.Сканирование</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
+  <dataProcessors>DataProcessor.ВКМ_МассовоеСозданиеАктов</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
