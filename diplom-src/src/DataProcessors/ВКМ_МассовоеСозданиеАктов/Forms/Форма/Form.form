@@ -1,74 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
-  <items xsi:type="form:FormField">
-    <name>Период</name>
-    <id>99</id>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаПериодСформировать</name>
+    <id>36</id>
+    <items xsi:type="form:FormField">
+      <name>Период</name>
+      <id>28</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Период</segments>
+      </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПериодПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>ПериодРасширеннаяПодсказка</name>
+        <id>30</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПериодКонтекстноеМеню</name>
+        <id>29</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ВКМ_СформироватьАктыЗапериод</name>
+      <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Сформировать акты за период</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ВКМ_СформироватьАктыЗапериодРасширеннаяПодсказка</name>
+        <id>27</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.ВКМ_СформироватьАктыЗапериод</commandName>
+      <representation>Auto</representation>
+      <width>50</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Период</segments>
-    </dataPath>
-    <handlers>
-      <event>OnChange</event>
-      <name>ПериодПриИзменении</name>
-    </handlers>
-    <extendedTooltip>
-      <name>ПериодРасширеннаяПодсказка</name>
-      <id>101</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ПериодКонтекстноеМеню</name>
-      <id>100</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
-  </items>
-  <items xsi:type="form:Button">
-    <name>ВКМ_СформироватьАктыЗапериод</name>
-    <id>26</id>
     <title>
       <key>ru</key>
-      <value>Сформировать акты за период</value>
+      <value>Группа период сформировать</value>
     </title>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа период сформировать</value>
+    </toolTip>
     <extendedTooltip>
-      <name>ВКМ_СформироватьАктыЗапериодРасширеннаяПодсказка</name>
-      <id>27</id>
+      <name>ГруппаПериодСформироватьРасширеннаяПодсказка</name>
+      <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -81,14 +112,15 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <type>UsualButton</type>
-    <commandName>Form.Command.ВКМ_СформироватьАктыЗапериод</commandName>
-    <representation>Auto</representation>
-    <width>50</width>
-    <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
-    <placementArea>UserCmds</placementArea>
-    <representationInContextMenu>Auto</representationInContextMenu>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <items xsi:type="form:Table">
     <name>СписокДоговоров</name>
@@ -251,6 +283,35 @@
     <autoCommandBar>
       <name>СписокДоговоровКоманднаяПанель</name>
       <id>6</id>
+      <items xsi:type="form:Button">
+        <name>СписокДоговоровДобавить</name>
+        <id>34</id>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокДоговоровДобавитьРасширеннаяПодсказка</name>
+          <id>35</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Item.СписокДоговоров.StandardCommand.Add</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -421,6 +482,58 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Индикатор</name>
+    <id>31</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Индикатор</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ИндикаторРасширеннаяПодсказка</name>
+      <id>33</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИндикаторКонтекстноеМеню</name>
+      <id>32</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -433,10 +546,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -480,15 +589,14 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СтрокаСостояния</name>
+    <name>ИдентификаторЗадания</name>
     <title>
       <key>ru</key>
-      <value>Строка состояния</value>
+      <value>Идентификатор задания</value>
     </title>
-    <id>3</id>
+    <id>4</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>UUID</types>
     </valueType>
     <view>
       <common>true</common>
@@ -498,14 +606,37 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ИдЗадания</name>
+    <name>Период</name>
     <title>
       <key>ru</key>
-      <value>Ид задания</value>
+      <value>Период</value>
     </title>
-    <id>4</id>
+    <id>5</id>
     <valueType>
-      <types>UUID</types>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдресХранилища</name>
+    <title>
+      <key>ru</key>
+      <value>Адрес хранилища</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
     </valueType>
     <view>
       <common>true</common>

@@ -11,30 +11,6 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма</defaultForm>
-  <attributes uuid="c950121d-ad59-401c-905e-0d9635c5c771">
-    <name>Период</name>
-    <synonym>
-      <key>ru</key>
-      <value>Период</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <format>
-      <key>ru</key>
-      <value>ДФ=dd.MM.yyyy</value>
-    </format>
-    <editFormat>
-      <key>ru</key>
-      <value>ДФ=dd.MM.yyyy</value>
-    </editFormat>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-  </attributes>
   <tabularSections uuid="60d9d4b2-04ee-4251-a0a4-d2ee7ca5b949">
     <producedTypes>
       <objectType typeId="d28f7265-5954-4a7e-9320-0c38cb4d032d" valueTypeId="02894481-c5d5-47e7-bf25-8a7ea10a8251"/>
@@ -62,6 +38,7 @@
           <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.ВКМ_АбонентскоеОбслуживание</value>
         </value>
       </choiceParameters>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="097d52f2-d19e-426a-a5b0-28d7fd91f403">
       <name>Реализация</name>

@@ -121,6 +121,7 @@
     <types>Boolean</types>
     <types>CatalogRef.ЗначенияСвойствОбъектов</types>
     <types>String</types>
+    <types>CatalogRef.ВКМ_Сотрудники</types>
     <types>Date</types>
     <types>Number</types>
     <types>CatalogRef.Пользователи</types>

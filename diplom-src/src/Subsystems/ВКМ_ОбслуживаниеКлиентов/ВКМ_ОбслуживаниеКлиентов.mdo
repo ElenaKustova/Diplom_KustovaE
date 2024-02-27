@@ -16,6 +16,8 @@
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
   <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>HTTPService.Боты</content>
-  <content>b34d232f-3777-4068-917a-c9faaf3a35fb</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
+  <content>Catalog.ВКМ_Сотрудники</content>
+  <content>e1f3f0d4-1a8d-4b4e-9fa0-163031098c91</content>
+  <content>Document.РеализацияТоваровУслуг</content>
 </mdclass:Subsystem>
