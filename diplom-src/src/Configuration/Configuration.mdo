@@ -56,6 +56,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
   <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
+  <subsystems>Subsystem.РасчетЗарплаты</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -1218,6 +1219,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ВыработкаСпециалистов</reports>
+  <reports>Report.АнализВыставленныхАктов</reports>
+  <reports>Report.РасчётыССотрудниками</reports>
+  <reports>Report.РасходЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c5e5cfd-e616-432b-bffc-3e9fb0e83512">
+  <name>Регистры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
+  <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</content>
+  <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
+  <content>CalculationRegister.ОсновныеНачисления</content>
+  <content>CalculationRegister.ДополнительныеНачисления</content>
+  <content>CalculationRegister.Удержания</content>
+  <parentSubsystem>Subsystem.РасчетЗарплаты</parentSubsystem>
+</mdclass:Subsystem>

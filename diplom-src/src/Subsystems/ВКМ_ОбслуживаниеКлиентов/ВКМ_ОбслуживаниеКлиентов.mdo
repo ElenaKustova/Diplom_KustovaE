@@ -10,14 +10,14 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ИконкаНетология</picture>
   </picture>
-  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
-  <content>Catalog.ВКМ_УведомленияТелеграмБоту</content>
   <content>HTTPService.Боты</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
-  <content>Catalog.ВКМ_Сотрудники</content>
   <content>e1f3f0d4-1a8d-4b4e-9fa0-163031098c91</content>
-  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Report.ВыработкаСпециалистов</content>
+  <content>Report.АнализВыставленныхАктов</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
 </mdclass:Subsystem>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0bce688-043b-42b1-8b3b-96f64e68c75b">
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Document.ВКМ_ГрафикОтпусков</content>
+  <parentSubsystem>Subsystem.РасчетЗарплаты</parentSubsystem>
+</mdclass:Subsystem>

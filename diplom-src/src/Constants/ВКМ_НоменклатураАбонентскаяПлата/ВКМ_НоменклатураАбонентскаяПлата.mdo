@@ -8,7 +8,7 @@
   <name>ВКМ_НоменклатураАбонентскаяПлата</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ номенклатура абонентская плата</value>
+    <value>Номенклатура абонентская плата</value>
   </synonym>
   <type>
     <types>CatalogRef.Номенклатура</types>
