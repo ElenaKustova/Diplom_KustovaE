@@ -16,8 +16,10 @@
   <content>HTTPService.Боты</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>e1f3f0d4-1a8d-4b4e-9fa0-163031098c91</content>
-  <content>Report.ВыработкаСпециалистов</content>
-  <content>Report.АнализВыставленныхАктов</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
+  <content>Report.ВКМ_АнализВыставленныхАктов</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Документы</subsystems>
 </mdclass:Subsystem>

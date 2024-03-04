@@ -30,7 +30,6 @@
   <defaultObjectForm>Document.ВКМ_НачисленияЗарплаты.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>CalculationRegister.Удержания</registerRecords>
-  <registerRecords>CalculationRegister.ДополнительныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ОсновныеНачисления</registerRecords>
   <registerRecords>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -49,15 +48,30 @@
     </type>
     <format>
       <key>ru</key>
-      <value>ДФ=MMMM.yyyy</value>
+      <value>ДФ=MMMM</value>
     </format>
     <editFormat>
       <key>ru</key>
-      <value>ДФ=MMMM.yyyy</value>
+      <value>ДФ=dd.MM.yyyy</value>
     </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ec1bf84-b10b-4bbd-9a29-203615d9cd80">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
