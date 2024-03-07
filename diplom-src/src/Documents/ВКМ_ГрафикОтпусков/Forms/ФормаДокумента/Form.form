@@ -863,6 +863,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <savedData>true</savedData>
   </attributes>
   <formCommands>
     <name>АнализГрафика</name>

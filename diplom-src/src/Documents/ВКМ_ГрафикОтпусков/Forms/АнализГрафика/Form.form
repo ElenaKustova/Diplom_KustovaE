@@ -328,6 +328,14 @@
     </edit>
     <extInfo xsi:type="form:GanttChartExtInfo"/>
   </attributes>
+  <parameters>
+    <name>АдресХранилища</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

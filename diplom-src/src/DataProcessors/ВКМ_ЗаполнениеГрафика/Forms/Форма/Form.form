@@ -157,16 +157,15 @@
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>Заполнить</name>
-      <id>5</id>
+      <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <skipOnInput>false</skipOnInput>
       <extendedTooltip>
         <name>ЗаполнитьРасширеннаяПодсказка</name>
-        <id>6</id>
+        <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -181,7 +180,6 @@
       </extendedTooltip>
       <commandName>Form.Command.Заполнить</commandName>
       <representation>Auto</representation>
-      <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -237,12 +235,6 @@
     </edit>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>ВыборПериода</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>ВыборПериода.EndDate</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>ВыборПериода.StartDate</segments>
     </settingsSavedData>
   </attributes>
   <attributes>
